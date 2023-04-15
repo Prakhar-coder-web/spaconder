@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block meta1 %} {% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="apple-touch-icon" sizes="120x120" href="{{url_for('static',filename='logo-120.png')}}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{url_for('static',filename='logo-150.png')}}" />
+    <link rel="stylesheet" href="{{url_for('static',filename='style1.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="icon" href="{{url_for('static',filename='favicon.ico')}}">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8603062676153516"
+     crossorigin="anonymous"></script>
+</head> 
+<body>
+    <header>
+        <a id="logo" href="/">Spazinzo</a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/articles">Articles</a></li>
+        </ul>
+    </header>
+    {% block body %}{% endblock %}
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-616196f4e065b14d"></script>
+
+
+</body>
+
+</html>

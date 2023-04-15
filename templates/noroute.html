@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Page not found - Spazinzo{% endblock %}
+{% block body %}
+    <div class="noroutemessage">
+        <img src="{{url_for('static',filename='error.jpg')}}">
+        <div>  Requested page not found! <a href="/">Click</a> to go back to home page </div>
+    </div>
+{% endblock %}

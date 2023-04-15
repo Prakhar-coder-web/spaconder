@@ -1,0 +1,221 @@
+{% extends "base.html" %}
+{% block meta1 %}
+<meta name="description"
+    content="Interesting articles on Quantum mechanics, Quantum computers, black holes, wormholes, time travel, etc are included">
+{% endblock %}
+{% block title %} Spazinzo - Articles {% endblock %}
+
+{% block body %}
+<section class="top-display">
+    Explore articles on space, time and universe.
+</section>
+
+<section class="other-posts">
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='Qc.webp')}}" alt="quantum computers">
+        <a style="color: black; text-decoration:none;" href="/articles/quantum-computers">
+            <h1>Quantum computers</h1>
+        </a>
+        <p>Quantum computers are one of the world's fastest computers working on the principles of Quantum
+            mechanics. But how do they really work?
+        </p>
+        <div>6-7 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='Qm.webp')}}" alt="quantum-mechanics">
+        <a style="color: black; text-decoration:none;" href="/articles/quantum-mechanics">
+            <h1>Quantum Mechanics</h1>
+        </a>
+        <p>When things get smaller, they start behaving in a different manner and thats because quantum mechanics comes into the picture...
+        </p>
+        <div>6-7 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='portal.webp')}}" alt="Mass and speed of light">
+        <a style="color: black; text-decoration:none;" href="/articles/mass-and-relativity">
+            <h1>Mass and speed of light</h1>
+        </a>
+        <p>Do you know that any particle with mass cannot travel with a speed greater than that of light? But why?
+        </p>
+        <div>3-4 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='wormhole-logo.webp')}}" alt="Wormholes">
+        <a style="color: black; text-decoration:none;" href="/articles/wormholes">
+            <h1>Wormholes</h1>
+        </a>
+        <p>The solution to interstellar space or time travel lies in a wormhole, but are they real...
+        </p>
+        <div>4 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='wormhole1.webp')}}" alt="Time Paradoxes">
+        <a style="color: black; text-decoration:none;" href="/articles/time-paradoxes">
+            <h1>Time Paradoxes</h1>
+        </a>
+        <p>While going back in time and changing past seems like a cool idea, its consequences are ...
+        </p>
+        <div>3-4 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='antimatter.webp')}}" alt="antimatter">
+        <a style="color: black; text-decoration:none;" href="/articles/what-is-antimatter">
+            <h1>What is antimatter</h1>
+        </a>
+        <p>Everyone knows about matter, but do you know about antimatter, how they are different from matter and what
+            are their properties...
+        </p>
+        <div>2 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='wp.webp')}}" alt="wave-particle duality">
+        <a style="color: black; text-decoration:none;" href="/articles/Heisenberg-Uncertainty-Principle">
+            <h1>Heisenberg Uncertainty Principle</h1>
+        </a>
+        <p>Increased accuracy of the knowledge of the momentum of a particle results in increased uncertainty about its
+            position...
+        </p>
+        <div>3 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='time-travel1.webp')}}"
+            alt="Time travel Time-travel-restrictions-on-changing-past">
+        <a style="color: black; text-decoration:none;" href="/articles/time-travel-restrictions-on-changing-past">
+            <h1>How time restricts changing of past</h1>
+        </a>
+        <p>Some times changing past results in infinite loops therefore making it impossible to alter an event in history
+        </p>
+        <div>3 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='pyramids.webp')}}" alt="Egypt pyramids">
+        <a style="color: black; text-decoration:none;" href="/articles/egypt-pyramids">
+            <h1>Egypt pyramids</h1>
+        </a>
+        <p>Egypt is one of the most fascinating places in the world, and its pyramids are more fascinating. But there
+            are mysteries hidden in those pyramids....
+        </p>
+        <div>4-6 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='Clocks.webp')}}" alt="Time slip part1">
+        <a style="color: black; text-decoration:none;" href='articles/time-slip-1'>
+            <h1>Time slip part-1</h1>
+        </a>
+        <p>Of course, Such incidents are rare but not unheard of. These are the incidents which occured in the 20th century and left the scientists wondering...
+        </p>
+        <div>4-5 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='Clocks2.webp')}}" alt="Time slip part2">
+        <a style="color: black; text-decoration:none;" href='articles/time-slip-2'>
+            <h1>Time slip part-2</h1>
+        </a>
+        <p>Physicsts have researched a lot, yet there is not much information or clue about how and why time slip
+            occurs. Perhaps this is another miracle of space
+        </p>
+        <div>3 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='Clocks3.webp')}}" alt="Time slip part3">
+        <a style="color: black; text-decoration:none;" href='articles/time-slip-3'>
+            <h1>Time slip part-3</h1>
+        </a>
+        <p>It was a bright, sunny, normal day for everyone. But Sir Robert Victor Goddard could not imagine if anything
+            so strange could happen with him...
+        </p>
+        <div>2-3 min read</div>
+    </div>
+    <div class="small-displays">
+        <img src="{{url_for('static',filename='Clock4.webp')}}" alt="Time slip part4">
+        <a style="color: black; text-decoration:none;" href='articles/time-slip-4'>
+            <h1>Time slip part-4</h1>
+        </a>
+        <p>Imagine staying in a hotel for one night and realising the next day that the hotel was closed 50yrs ago. This
+            is what happened with a couple in 1900's...
+        </p>
+        <div>1 min read</div>
+    </div>
+
+</section>
+
+<section class="exp-display">
+    <div class="diff-sections">
+        <div class="info">
+            <img src="{{url_for('static',filename='black-hole.webp')}}" alt="Black holes">
+            <div class="part1">
+                <a style="text-decoration: none; color: black;" href="/articles/black-holes">
+                    <h2>Black holes</h2>
+                </a>
+                <p>A black hole is a region of spacetime where gravity is so strong that nothing—no particles or even
+                    electromagnetic radiation such as light—can escape from it. The theory of general relativity
+                    predicts that a sufficiently compact mass can deform spacetime to form a black hole</p>
+                <div>4 min read</div>
+            </div>
+
+        </div>
+        <div class="info">
+            <img src="{{url_for('static',filename='spacetime2.webp')}}" alt="Spacetime">
+            <div class="part1">
+                <a style="text-decoration: none; color: black;" href="/articles/spacetime">
+                    <h2>Spacetime</h2>
+                </a>
+                <p>In General relativity published in 1916, Einstein stated that space and time is one single entity
+                    called spacetime. Space and time are interwoven to form the mesh of spacetime which gets distorted
+                    due to the objects having huge mass in space.</p>
+                <div>4 min read</div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="diff-sections">
+        <div class="info">
+            <img src="{{url_for('static',filename='information.webp')}}" alt="Black holes">
+            <div class="part1">
+                <a style="text-decoration: none; color: black;" href="/articles/information-paradox">
+                    <h2>Black hole information paradox</h2>
+                </a>
+                <p>According to law of conservation of quantum information, quantum information is neither created or destroyed. But a black hole tries to delete it. This is a serious flaw in our modern physics and must be resolved. What is the solution of this paradox...</p>
+                <div>4 min read</div>
+            </div>
+
+        </div>
+        <div class="info">
+            <img src="{{url_for('static',filename='paradox.webp')}}" alt="Black holes">
+            <div class="part1">
+                <a style="text-decoration: none; color: black;" href="/articles/bootstrap-paradox">
+                    <h2>Bootstrap paradox</h2>
+                </a>
+                <p>Sometimes when you go back in time and alter some event, you inevitably create a endless time loop where some object or piece of information doesn't have any origin or doesn't have any end. This is the Bootstrap paradox...</p>
+                <div>4 min read</div>
+            </div>
+
+        </div>
+    </div>
+
+    <button id="load-more">See more</button>
+
+</section>
+<script>
+    const loadmore = document.querySelector('#load-more');
+    let currentItems = 1;
+    loadmore.addEventListener('click', (e) => {
+        const elementList = [...document.querySelectorAll('.exp-display .diff-sections')];
+        for (let i = currentItems; i < currentItems + 1; i++) {
+            if (elementList[i]) {
+                elementList[i].style.display = 'flex';
+            }
+        }
+        currentItems += 1;
+
+        // Load more button will be hidden after list fully loaded
+        if (currentItems >= elementList.length) {
+            event.target.style.display = 'none';
+        }
+    })
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-616196f4e065b14d"></script>
+
+{% endblock %}

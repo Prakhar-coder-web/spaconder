@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block meta1 %}
+<meta name="description"
+    content="Spacetime is a model that combines three dimensions of space and the dimension of time to form the 4-d minkowski spacetime. Its tells that space and time are interwoven to form the fabric of spacetime ">
+{% endblock %}
+
+{% block title %} Spacetime - The fabric of space and time {% endblock %}
+
+{% block body %}
+
+<section class="content">
+    <div>
+        <h1>What is spacetime?</h1>
+        <p class="para">
+            Earlier, Physicists used to think that space is just an empty thing/void. It's like a flat solid stage where
+            events of this Universe are unfurling. The earlier thought process was that space is one different thing and
+            time is another thing. Then in 1666, the apple fell on Sir Isaac newton leading to the discovery of gravity.
+            After a lot of research and study, Newton published in his work that gravity is a force acting between two
+            masses. He described gravity as the force which acts between two bodies having some mass. </p>
+        <p class="para">
+            But something was missing. The explanation which he gave on gravity was a little incomplete and
+            unsatisfactory. He covered the aspects of this gravitational force but didn't know exactly what gravity is
+            and how it propagates. He said there is a gravitational force between two masses, but that still doesn't
+            explain why in the first place do two bodies having masses attract each other. Then in 1916, Albert Einstein
+            published general relativity. It revolutionized the idea of gravity. It offered a better and accurate
+            explanation for gravity and space. </p>
+            <p class="para">
+                <blockquote>"Spacetime tells matter how to move; matter tells spacetime how to curve"</blockquote>
+            </p>
+        <p class="para">
+            In einstein's general relativity, he explained that space and time are not two different things but just one
+            thing - spacetime. So instead of considering space and time as two separate entities, we have to treat them
+            as a single entity called spacetime. His general relativity states that space and time are interwoven to
+            form the mesh or fabric of spacetime which combines three dimensions of space and one dimension of time to
+            form a 4-d spacetime. This spacetime is a fabric that gets distorted due to mass. It means that the
+            spacetime bends around a massive object with huge mass or simply mass causes spacetime to curve around it.
+        </p>
+        <img src="{{url_for('static',filename='spacetime-curvature.png')}}" alt="curvature of spacetime">
+        <p class="para">
+            In the picture above, the spacetime is getting curved around the Earth due to its mass. The more the mass or
+            density of the Earth is, the more will be the curvature. Hence we can say that space is non-euclidean. But
+            what do euclidean and non-euclidean mean? Euclidean geometry means in simple words, the regular geometry
+            that tells the sum of all angles of triangles is 180 deg or two parallel lines never intersect. In
+            non-euclidean geometry, the normal geometry rules are not followed, which means that two parallel lines can
+            intersect and there can be a 5-sided square in non-euclidean geometry. The curvature of spacetime makes it
+            non-euclidean. </p>
+        <p class="para">
+            The warping of spacetime creates the effect of gravitational force. This warping deflects the path of other
+            objects. Like, imagine a trampoline. If you put a bowling pin at the center of the trampoline, the
+            trampoline would curve around the object due to its mass. If we let a small marble roll on the trampoline,
+            instead of going in the straight path, it will start revolving around the object as it's curving the
+            trampoline around it. Light traveling in a straight line also gets curved or bent around heavenly planets
+            due to the spacetime curvature. General relativity has been corroborated several times. Using telescopes
+            like the Hubble telescope, it has been seen and observed that light bends around massive planets or stars.
+            Other phenomena like Gravitational lensing also prove the same. </p>
+    </div>
+</section>
+
+{% endblock %}

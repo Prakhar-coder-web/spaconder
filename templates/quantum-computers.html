@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block meta1 %}
+<meta name="description"
+    content="Quantum computers are super-fast computers working on the principle and fundamentals of quantum mechanics to perform very huge operations in a fraction of time">
+{% endblock %}
+{% block title %} Quantum-Computers {% endblock %}
+
+{% block body %}
+<section class="content">
+    <div>
+        <h1 style="font-size: 40px; font-weight: 400;">Quantum computers</h1>
+        <p class="para">
+            Quantum mechanics is one of the world's toughest fields of science and no one has been able to fully
+            understand
+            its underlying principles. One of its applications is Quantum computers. Quantum computers are not just
+            different in design or size they are different at the fundamental level, that is the way they process the
+            data.
+            Quantum computers are 158 times faster than the worlds greatest supercomputers and they can perfom huge
+            calculations so fast that they are also called the future of computing.
+        </p>
+        <p class="para">
+            First Lets talk about how normal computers process data. Normal computers have processors. The smallest and
+            the
+            most fundamental unit of a processor is a transistor. Transistors are kind of switches that allow
+            electrons(electricity) to flow through them. A transistor either allows electrons to flow through or the
+            block/prevent the flow of electrons. You all know computers store data in the forms of bits which are in the
+            forms of 0s and 1s. So all the data is stored in form of 0 and 1. In a transistor when current flows through
+            it
+            is represented by 1 and when it blocks the electrons, it is represented by 0. These transistors by allowing
+            or
+            blocking the electrons store data. More the number of transistors, the faster the processing speed and its
+            efficiency.
+        </p>
+        <img src="{{url_for('static',filename='Qc2.png')}}" alt="Quantum chips">
+        <p class="para"> Several transistors form logic gates which then combine with other logic gates to form basic
+            modules, then
+            chips. The current size of a transistor is 14nm. Less the size of the transistor, more transistors can be
+            used
+            and therefore more efficiency. There is a limit to which we can reduce the size of the transistor. Once we
+            reduce the size of a transistor to the size of an atom then things start going weird because at this level
+            quantum physics acts upon it. If we will use a transistor the size of the atom, then the electrons will
+            simply
+            transfer themselves to the other side of the transistors due to the property of quantum entanglement.
+        </p>
+        <p class="para"> To solve this problem we can use quantum computers. Like in classical computers we use bits to
+            store data, in
+            quantum computers we use quantum bits which are Qubits. Instead of transistors, we use photons, a nucleus of
+            an
+            atom, or electrons to store data. Let's understand how this works. Let us take electrons as an example.
+            Electrons have two possible quantum states, spin up or spin down. Now spin up represents 1 and the spin-down
+            represents 0. But the weird part is here. In classical computers, a bit can take only one value either 0 or
+            1
+            but in quantum computers, the qubits can take either 1, 0, or even both. Yes!
+        </p>
+        <p class="para">The Qubits can be in a state of both the possible values which is 0 and 1 due to
+            superposition(superposition is a
+            phenomenon in which a particle is in two states at one like for eg an electron is an electron and is not an
+            electron at the same time then we can say the electron is in superposition). Althought when we measure the
+            Qubit
+            it takes up the value of either 1 or 0. Turns out that the superposition is a blessing. In classical
+            computers,
+            4 bits can represent one of 16 values possible, but in quantum mechanics, the Qubits can be all the 16
+            values
+            possible at once.
+        </p>
+        <p class="para">Now through this example, we can easily understand why are quantum computers so fast. Suppose
+            there is a maze and
+            the cat is at the starting point of the maze and it wants to go to the endpoint of the maze to get food. It
+            can
+            only go through the maze to reach its destination. If classical computers are used to find the route through
+            the
+            maze they will check and try to check the route until the correct one is found(because bits can only
+            represent
+            one value at a time). If we use quantum computers the Qubits would represent all the possible routes at once
+            and
+            then it will simply collapse to give the right answer.
+        </p>
+        <p class="para">
+            For example, if I tell you that have to find out two numbers(using hit and trial method) that would add up
+            to 10
+            but their product is 16, so the bits in classical computers would try each value until it finds the correct
+            one
+            while the Qubits in a quantum computer would represent all possible combinations of numbers that would add
+            up to
+            10 and then it would simply collapse to the correct answer. Quantum computers require less than 0 C
+            temperature
+            and a magnetic field to work. If you like this, please upvote it, share it and if you want more amazing
+            content,
+            pls follow "space stuff"
+        </p>
+    </div>
+</section>
+{% endblock %}

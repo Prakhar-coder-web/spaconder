@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block meta1 %}
+<meta name="description" content=""> {% endblock %}
+{% block title %} Heisenberg Uncertainty Principle{% endblock %}
+
+{% block body %}
+<section class="content">
+    <div>
+        <h1 style="font-size: 40px; font-weight: 400;">Heisenberg Uncertainty principle</h1>
+        <p class="para">
+            Heisenberg's uncertainty principle states that it is impossible to measure both the position and momentum of
+            the
+            particle with precision at the same time or simultaneously. If you measure the position of the particle or
+            object accurately, then you won't be able to measure its momentum with precision at the same time. If you
+            measure the momentum of the particle with precision then your knowledge of the position of the particle
+            would be
+            uncertain. It can be ignored in the macroscopic world. So if you are trying to apply this principle on a
+            ball,
+            then good luck because the uncertainty would be exiguous to be noticeable. It is significant at the
+            sub-atomic
+            level where the increased accuracy of the velocity of a particle would result in increased uncertainty about
+            the
+            position and Vice-Versa. </p>
+        <h2>
+            Why can't we measure the position and the momentum of the particle with absolute precision?</h2>
+        <p class="para">
+            The principle is based on wave-particle duality.
+            It is not that we don't have advanced technology to do. It's not related to the instruments used to measure.
+            It's because such information does not exist in nature. The information of a particle's absolute position
+            and
+            momentum does not exist in nature simultaneously. To measure one property, the other has to become
+            uncertain.
+            Let's have a look at this graph.
+        </p>
+        <img src="{{url_for('static',filename='graph1.png')}}" alt="Graph1">
+        <p class="para">This graph doesn't have a defined wavelength or basically we cant measure its wavelength, but
+            the spike in the
+            graph shows its position clearly. Hence, we know about the position of the particle but are uncertain about
+            the momentum</p>
+        <p class="para">
+        <blockquote>“The uncertainty principle 'protects' quantum mechanics, Heisenberg recognized that if it were
+            possible to measure both the momentum and the position simultaneously with greater accuracy, quantum
+            mechanics would collapse"</blockquote>
+        </p>
+        <img src="{{url_for('static',filename='graph2.png')}}" alt="Graph1">
+        <p class="para">
+            This graph does have a defined wavelength but now since it's a wave, it is spread out so it doesn't have an
+            absolute position. Hence, we know about the momentum of the particle but are uncertain about the position
+        </p>
+        <p class="para">Momentum is only defined when a wave has a wavelength, which means it doesn’t have a position
+            (because a wavelength means the wave is “repeated” over space), and position is only defined when a wave
+            doesn’t
+            have a wavelength and thus doesn’t have momentum (because having a position means that it isn’t spread out
+            over
+            space). </p>
+
+        <h2>Heisenberg Uncertainty Principle formula</h2>
+        <img src="{{url_for('static',filename='formula.png')}}" alt="Heisenberg Uncertainty Principle formula">
+        <p class="para">
+            &#916;x - Uncertainty in position <br>
+            &#916;p - Uncertainty in momentum <br>
+            h - Planck's constant <br>
+            Using this formula you can easily calculate the uncertainty in the position or momentum of the particle.
+        </p>
+
+
+
+    </div>
+</section>
+{% endblock %}

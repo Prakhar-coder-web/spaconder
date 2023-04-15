@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Spazinzo is a website where you can read interesting articles about space, science, mysteries and
+    other. Articles on time-travel, time-slip, time paradoxes are also there." />
+    <title>
+        Spazinzo - Articles on space, mysteries, time, theories and other
+    </title>
+    <link rel="apple-touch-icon" sizes="120x120" href="{{url_for('static',filename='logo-120.png')}}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{url_for('static',filename='logo-150.png')}}" />
+    <meta name="google-site-verification" content="LPjL5GXtXZQ132lVadlJfwYx57Svyt_X3Gsks5UKKuc" />
+    <link rel="stylesheet" href="{{url_for('static',filename='style1.css')}}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap" rel="stylesheet" />
+    <link rel="icon" href="{{url_for('static',filename='favicon.ico')}}" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X9YL8BP5QJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-X9YL8BP5QJ");
+    </script>
+    <style>
+        header {
+            color: black;
+
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8603062676153516"
+     crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+    <header>
+        <a id="logo" href="/">Spazinzo</a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li>
+                <a href="/articles">Articles</a>
+            </li>
+        </ul>
+    </header>
+    <section class="section1">
+        <!-- <div class="img"></div> -->
+        <div class="box">
+            <h1>Welcome to Spazinzo</h1>
+            <div>
+                <p>
+                    Spazinzo is a place where you can read interesting articles on
+                    space, science, mysteries and other &#128301;. It's for anyone and everyone who looks up at the night sky and wonders about our universe. 
+                </p>
+            </div>
+            <!-- <button>Read articles</button> -->
+            <div class="pointer">
+                <div class="arrow"></div>
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1>Explore</h1>
+        <hr style="color: rgb(52, 52, 255)" />
+        <div class="flex-articles">
+            
+            <div class="box3">
+                <img src="{{url_for('static',filename='big-bang.webp')}}" alt="Big bang" />
+                <a href="articles/big-bang-theory">Big Bang theory</a>
+                <p>
+                    Big bang theory is a popular theory which explains the origin of the
+                    universe
+                </p>
+            </div>
+            
+            <div class="box3">
+                <img src="{{url_for('static',filename='triangle.webp')}}" alt="Bermuda and dragon's triangle" />
+                <a href='articles/Bermuda-and-Dragon"s-triangle'>The mysterious triangles</a>
+                <p>
+                    An enigmatic place bubbling with secrets, the Bermuda triangle never leaves any trace of a ship or an aeroplane or any other thing that crosses its boundaries.
+                </p>
+            </div>
+            <div class="box3">
+                <img src="{{url_for('static',filename='mandela.webp')}}" alt="Mandela effect" />
+                <a href="articles/mandela-effect">The Mandela effect</a>
+                <p>
+                    The Mandela effect occurs when a large group of people believe an
+                    event occurred when it did not...
+                </p>
+            </div>
+            <div class="box3">
+                <img src="{{url_for('static',filename='time.webp')}}" alt="Time travel possibility" />
+                <a href="articles/time-travel-possible-or-not">Is time travel possible?</a>
+                <p>
+                    Time travel is one of the most fascinating things in science which
+                    we have only seen in movies. But is it possible in real life also...
+                </p>
+            </div>
+            <div class="box3">
+                <img src="{{url_for('static',filename='dark-matter.webp')}}" alt="Dark matter and energy" />
+                <a href=" articles/dark-matter-dark-energy">Dark matter and energy</a>
+                <p>
+                    What we know about universe is 5% of it. The rest 95% of it is made
+                    of a weird thing - Dark matter and dark energy. It is spread all over the universe yet remails undeteced even by the powerful telescopes.
+                </p>
+            </div>
+            
+            <div class="box3">
+                <img src="{{url_for('static',filename='space-time.webp')}}" alt="Theory of relativity" />
+                <a href="articles/theory-of-relativity">Theory of relativity</a>
+                <p>
+                    Theory of relativity formulated by Einstein and one of the most
+                    famous theories of the world.It is a notion that states, laws of
+                    physics are the same everywhere
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <h1>Contact us</h1>
+        <div class="main-contact">
+            <div class="main-log">
+                <img src="{{url_for('static',filename='favicon.ico')}}" alt="Logo" />
+            </div>
+
+            <form action="/" method="POST" class="contact">
+                <div class="group1">
+                    <input type="text" id="input1" name="username" placeholder="Name" />
+                    <input type="email" name="email" placeholder="Email" />
+                </div>
+                <textarea name="message" cols="30" rows="10" placeholder="Your message..."></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="lastpart">Copyright © 2020-2021 | All rights reserved | Designed by Prakhar Soni</div>
+    </section>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-616196f4e065b14d"></script>
+    <script type="text/javascript" src="/static/vanilla-tilt.js"></script>
+    <!-- <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".box"), {
+            max: 100,
+            speed: 400,
+        });
+    </script> -->
+   
+</body>
+
+</html>
